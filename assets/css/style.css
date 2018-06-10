@@ -65,7 +65,7 @@ h3 {
 
 #logo {
   float: left;
-  width: 250px;
+  width: 350px;
   height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
@@ -215,3 +215,68 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px)  {
+
+}
+
+@media screen and (max-width: 768px)  {
+  
+}
+
+@media screen and (max-width: 640px)  {
+  /* nav and header */
+ 
+  header  {
+    position: static;
+    /* width: 630px; */
+  }
+
+  #logo {
+    width: 640px;
+  }
+
+  #masthead {
+    width: 640px;
+  }
+
+  nav {
+    width: 640px;
+    text-align: center;
+  }
+}
+
+  /* About */
+
+  * {
+    position: relative;
+  }
+  .auth-image {
+    float: center;
+    width: 450px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+  }
+
+  .main-section {
+    width: 500px;
+    padding-left: 30px;
+    margin: 0px 0 40px 60px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+
+  h1  {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .container {
+   padding-bottom: 15px;
+  }
