@@ -303,6 +303,10 @@ input[type=submit] {
       padding-right: 30px;
       text-align: center;
     }
+
+    #logo {
+      margin-left: 20px;
+    }
   
     /* About */
 
@@ -336,4 +340,42 @@ input[type=submit] {
   
   @media screen and (max-width: 980px)  {
 
+/* nav and header */
+
+    #logo {
+      margin-left: 50px;
+    }
+    nav {
+      padding-right: 30px;
+      text-align: center;
+    }
+
+  /* about */
+  .auth-image {
+    width: 200px;
   }
+
+  .main-section {
+    width: 600px;
+    padding-left: 30px;
+    margin: 0px 0 40px 60px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+
+   /* Portfolio */
+
+   .work {
+    width: 200px;
+  }
+
+  .work h3  {
+    width: 170px;
+    bottom: 15px;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  }
+
+  /* For some reason the responsive code for the contact page won't work, especially the header/nav. It works with the other pages, but not the contact page. I looked at the html page for it and the header code is the same for all three, so I'm not sure why the responsive code isn't working. */
