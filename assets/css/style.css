@@ -216,13 +216,6 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 980px)  {
-
-}
-
-@media screen and (max-width: 768px)  {
-  
-}
 
 @media screen and (max-width: 640px)  {
   /* nav and header */
@@ -301,4 +294,46 @@ input[type=submit] {
     text-align: center;
     background: #4aaaa5;
     border-bottom: 0;
+  }
+
+  
+  @media screen and (max-width: 768px)  {
+  
+    nav {
+      padding-right: 30px;
+      text-align: center;
+    }
+  
+    /* About */
+
+    .auth-image {
+      width: 200px;
+    }
+
+    .main-section {
+      width: 600px;
+      padding-left: 30px;
+      margin: 0px 0 40px 60px;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+  
+    /* Portfolio */
+
+    .work {
+      width: 200px;
+    }
+
+    .work h3  {
+      width: 170px;
+      bottom: 15px;
+      padding: 5px;
+      font-size: 14px;
+    }
+
+  }
+
+  
+  @media screen and (max-width: 980px)  {
+
   }
